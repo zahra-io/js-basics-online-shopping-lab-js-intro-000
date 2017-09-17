@@ -66,15 +66,7 @@ function removeFromCart(item) {
 
   if(!itemInCart) {
     console.log("That item is not in your cart.");
-    return itemInCart;
   }
-
-  for(var i = 0; i < cart.length; i++) {
-    if(cart[i].hasOwnProperty(item)) {
-      cart.splice(0, i);
-    }
-  }
-  // console.log("Item has been removed from cart")
   return cart;
 };
 
