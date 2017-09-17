@@ -56,7 +56,7 @@ function total() {
 };
 
 function removeFromCart(item) {
-  var itemInCart = item;
+  var itemInCart = false;
   if(!itemInCart) {
     console.log("That item is not in your cart.");
     return itemInCart;
